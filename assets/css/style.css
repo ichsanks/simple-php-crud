@@ -1,0 +1,129 @@
+/*
+Author: Ichsan Kurniawan
+Author URI: https://github.com/ichsanks
+Description: Simple CRUD + Login
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+* {
+	box-sizing: border-box;		
+}
+
+body {
+	font-family: "Arial", "Sans", "Sans-Serif";	
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+hr {
+	border-color: #eee;		
+	margin: 20px 0;
+}
+
+.form-group {
+	margin-bottom: 8px;	
+}
+
+.form-control {
+	padding: 8px 12px;
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+.btn {
+	margin: 0;
+	padding: 8px 12px;
+	background-color: #ddd;
+	box-shadow: none;
+	border: none;
+	border-radius: 3px;
+	display: inline-block;
+	color: black;
+	cursor: pointer;
+}
+
+.alert {
+	padding: 12px;
+	border-radius: 3px;
+	background-color: #eee;	
+}
+
+.text-right {
+	text-align: right;
+}
+
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+
+.navbar {	
+	height: 50px;
+	line-height: 50px;
+	background-color: black;
+}
+	.navbar:after {
+		content: '';
+		display: block;
+		clear: both;
+		visibility: hidden;
+	}
+	.navbar .logo {
+		margin: 0;
+		padding: 0;
+		color: white;
+	}
+	.navbar a {
+		color: white;
+	}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.content-header {
+	margin-top: 20px;
+}
+
+.content-body {
+	padding: 20px 0;
+}
+
+.table {
+	table-layout: fixed;
+	width: 100%;
+	border-spacing: 0;
+}
+	.table th, .table td {
+		padding: 6px;
+	}
+	.table thead tr th {
+		text-align: left;	
+	}
+		.table thead tr:last-child th {
+			border-bottom: 1px solid #ccc;
+		}
+	.table tr:nth-child(even) {
+		background-color: #eee;
+	}
+
+
+.signin {
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -70%);	
+}	
+
+	.signin .alert {
+		margin-bottom: 20px;
+	}
